@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- <link rel="stylesheet" href="./assets/fontawesome/6.4.2/css/all.min.css"> -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"> -->
+    <link rel="stylesheet" href="./assets/swiper11.0.7/swiper-bundle.min.css">
+    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="./assets/oas2.3.1/aos.css">
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/bannercarousel.css">
+
+    <title>MBRTV</title>
+</head>
+
+<body>
+    <div class="background"></div>
+
+    <body>
+        <!-- .navigation>nav>i.logo+(ul>a*4>i.itens)+(ul>a*3>i.itens) -->
+        <!-- <div class="navigation">
+            <nav>
+                <i class="logo"></i>
+                <ul>
+                    <a href=""><i class="itens"></i></a>
+                    <a href=""><i class="itens"></i></a>
+                    <a href=""><i class="itens"></i></a>
+                    <a href=""><i class="itens"></i></a>
+                </ul>
+                <ul>
+                    <a href=""><i class="fa fa-user nav-icon"></i></a>
+                    <a href=""><i class="fa fa-gear nav-icon"></i></a>
+                    <a href=""><i class="fa fa-right-from-bracket nav-icon"></i></a>
+                </ul>
+            </nav>
+        </div> -->
+        <main>
+            <nav class="main-menu">
+                <div>
+                    <div class="user-info">
+                        <a href="index.html">
+                            <img src="./assets/images/logombrtv.png" alt="user">
+                        </a>
+                        <!-- <p>MBRTV</p> -->
+                    </div>
+
+
+                    <ul>
+                        <li class="nav-item active">
+                            <a href="index.html">
+                                <i class="fa-solid fa-house nav-icon"></i>
+                                <span class="nav-text">Inicio</span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#">
+                                <i class="fa-solid fa-magnifying-glass nav-icon"></i>
+                                <span class="nav-text">Pesquisa</span>
+                            </a>
+                        </li>
+
+                        <!-- <li class="nav-item">
+                            <a href="#">
+                                <i class="fa fa-compact-disc nav-icon"></i>
+                                <span class="nav-text">Álbum</span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#">
+                                <i class="fa fa-circle-play nav-icon"></i>
+                                <span class="nav-text">Playlist</span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#">
+                                <i class="fa fa-heart nav-icon"></i>
+                                <span class="nav-text">Favoritos</span>
+                            </a>
+                        </li> -->
+
+                        <li class="nav-item">
+                            <a href="iconografico.html">
+                                <i class="fa-solid fa-image-portrait nav-icon"></i>
+                                <span class="nav-text">Iconográfico</span>
+                            </a>
+                        </li>
+
+                    </ul><!-- FIM MENU SUPERIOR-->
+                </div>
+
+
+                <ul>
+
+                    <li class="nav-item">
+                        <a href="#">
+                            <i class="fa fa-user nav-icon"></i>
+                            <span class="nav-text">Conta</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#">
+                            <i class="fa fa-gear nav-icon"></i>
+                            <span class="nav-text">Configurações</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#">
+                            <i class="fa fa-right-from-bracket nav-icon"></i>
+                            <span class="nav-text">Sair</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </nav> <!-- FIM MENU LATERAL-->
+
+            <section class="content">
+                <div class="left-content">
+
+                    <!--
+                    <div class="slider-container">
+                        <h1>Lista Popular</h1>
+                        
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+
+
+                                <div class="swiper-slide">
+                                    <img src="images/295197441-95b52c32-f5da-4fe6-956d-a5ed118bbdd2.jpg" />
+                                    <div class="slide-overlay">
+                                        <h2>Midnight Moods</h2>
+                                        <button>
+                                            Ouça Agora <i class="fa-solid fa-circle-play"></i>
+                                        </button>
+                                    </div>
+                                </div>
+
+
+                                <div class="swiper-slide">
+                                    <img src="images/295197445-6ddf81f5-2689-4f34-bf80-a1e07f14621c.jpg" />
+                                    <div class="slide-overlay">
+                                        <h2>Party Starters</h2>
+                                        <button>
+                                            Ouça Agora <i class="fa-solid fa-circle-play"></i>
+                                        </button>
+                                    </div>
+                                </div>
+
+
+                                <div class="swiper-slide">
+                                    <img src="images/295197446-ab52d9d0-308e-43e0-a577-dce35fedd2a3.jpg" />
+                                    <div class="slide-overlay">
+                                        <h2>Relaxing Tones</h2>
+                                        <button>
+                                            Ouça Agora <i class="fa-solid fa-circle-play"></i>
+                                        </button>
+                                    </div>
+                                </div>
+
+
+                                <div class="swiper-slide">
+                                    <img src="images/295197450-20c8fdd5-9f4a-4917-ae90-0239a52e8334.jpg" />
+                                    <div class="slide-overlay">
+                                        <h2>Smooth Jazz Journey</h2>
+                                        <button>
+                                            Ouça Agora <i class="fa-solid fa-circle-play"></i>
+                                        </button>
+                                    </div>
+                                </div>
+
+
+                                <div class="swiper-slide">
+                                    <img
+                                    src="images/295197430-df461a99-2fb3-4d55-ac16-2e0c6dd783e1.jpg" />
+                                    <div class="slide-overlay">
+                                        <h2>Uplifting Rhythms</h2>
+                                        <button>
+                                            Ouça Agora <i class="fa-solid fa-circle-play"></i>
+                                        </button>
+                                    </div>
+                                </div>
+
+
+
+
+                            </div> < !-- fim swiper-wrapper -- >
+                            <div class="swiper-pagination"></div>
+
+                        </div> < !-- Fim swiper-- >
+                    </div> < !-- Fim slider-container -- >
+                -->
+
+                    <!-- carousel -->
+                    <div class="carousel" data-aos="fade-up" data-aos-duration="2000">
+                        <!-- list item -->
+                        <div class="list">
+                            <div class="item">
+                                <img src="./assets/images/camera.jpg">
+                                <div class="content-slider">
+                                    <div class="author">MBRTV</div>
+                                    <div class="title">LORE IPSUM DOLOR</div>
+                                    <div class="topic">SIT AMET</div>
+                                    <div class="des">
+                                        <!-- lorem 50 -->
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam
+                                        nesciunt minima placeat, itaque eum neque officiis unde, eaque optio ratione
+                                        aliquid assumenda facere ab et quasi ducimus aut doloribus non numquam.
+                                        Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut,
+                                        exercitationem eum aperiam illo illum laudantium?
+                                    </div>
+                                    <div class="buttons">
+                                        <button class="button-mais">SAIBA MAIS</button>
+                                        <button class="button-inscreva">INSCREVA-SE</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img
+                                    src="./assets/images/FOTO-3-Wálter-Tasca-em-1950-comanda-a-primeira-câmera-da-TV.jpg">
+                                <div class="content-slider">
+                                    <div class="author">MBRTV</div>
+                                    <div class="title">A PRIMEIRA CÂMERA DE TV</div>
+                                    <div class="topic">TV 70 Anos</div>
+                                    <div class="des">
+                                        Nestes 70 anos da TV, nossa homenagem a Walter Tasca, o primeiro câmera-man da
+                                        TV
+                                        brasileira que depois também foi produtor e diretor de TV.
+                                    </div>
+                                    <div class="buttons">
+                                        <!-- <a href="ico01.html">  -->
+                                            <button class="button-mais"><a href="ico01.html">SAIBA MAIS</a></button>
+                                        <!-- </a> -->
+                                        <button class="button-inscreva">INSCREVA-SE</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="./assets/images/img3.jpg">
+                                <div class="content-slider">
+                                    <div class="author">MBRTV</div>
+                                    <div class="title">LORE IPSUM DOLOR</div>
+                                    <div class="topic">SIT AMET</div>
+                                    <div class="des">
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam
+                                        nesciunt minima placeat, itaque eum neque officiis unde, eaque optio ratione
+                                        aliquid assumenda facere ab et quasi ducimus aut doloribus non numquam.
+                                        Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut,
+                                        exercitationem eum aperiam illo illum laudantium?
+                                    </div>
+                                    <div class="buttons">
+                                        <button class="button-mais">SAIBA MAIS</button>
+                                        <button class="button-inscreva">INSCREVA-SE</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="./assets/images/img4.jpg">
+                                <div class="content-slider">
+                                    <div class="author">MBRTV</div>
+                                    <div class="title">LORE IPSUM DOLOR</div>
+                                    <div class="topic">SIT AMET</div>
+                                    <div class="des">
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam
+                                        nesciunt minima placeat, itaque eum neque officiis unde, eaque optio ratione
+                                        aliquid assumenda facere ab et quasi ducimus aut doloribus non numquam.
+                                        Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut,
+                                        exercitationem eum aperiam illo illum laudantium?
+                                    </div>
+                                    <div class="buttons">
+                                        <button class="button-mais">SAIBA MAIS</button>
+                                        <button class="button-inscreva">INSCREVA-SE</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- list thumnail -->
+                        <div class="thumbnail">
+                            <div class="item">
+                                <img src="./assets/images/camera.jpg">
+                                <div class="content-item">
+                                    <div class="title">
+                                        Name Slider
+                                    </div>
+                                    <div class="description">
+                                        Description
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img
+                                    src="./assets/images/FOTO-3-Wálter-Tasca-em-1950-comanda-a-primeira-câmera-da-TV.jpg">
+                                <div class="content-item">
+                                    <div class="title">
+                                        Primeira Câmera
+                                    </div>
+                                    <div class="description">
+                                        70 anos de TV
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="./assets/images/img3.jpg">
+                                <div class="content-item">
+                                    <div class="title">
+                                        Name Slider
+                                    </div>
+                                    <div class="description">
+                                        Description
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="./assets/images/img4.jpg">
+                                <div class="content-item">
+                                    <div class="title">
+                                        Name Slider
+                                    </div>
+                                    <div class="description">
+                                        Description
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- next prev -->
+
+                        <div class="arrows">
+                            <button id="prev">
+                                < </button>
+                                    <button id="next"> > </button>
+                        </div>
+                        <!-- time running -->
+                        <div class="time"></div>
+                    </div> <!-- Fim CAROUSEL-->
+
+
+
+
+
+
+
+                    <div class="artists">
+                        <h1 data-aos="fade-up" data-aos-duration="2000">Artistas que Marcaram Época</h1>
+                        <div class="artist-container containers">
+
+
+                            <div class="artist" data-aos="fade-up" data-aos-duration="2000">
+                                <img src="./assets/images/ana-paula-arosio.jpg" alt="" />
+                                <p>Ana Paula Arosio</p>
+                            </div>
+
+                            <div class="artist" data-aos="fade-up" data-aos-duration="2000">
+                                <img src="./assets/images/caetano-veloso.jpg" alt="" />
+                                <p>Caetano Veloso</p>
+                            </div>
+
+                            <div class="artist" data-aos="fade-up" data-aos-duration="2000">
+                                <img src="./assets/images/kadu-moliterno.jpg" alt="" />
+                                <p>Kadu Moliterno</p>
+                            </div>
+
+                            <div class="artist" data-aos="fade-up" data-aos-duration="2000">
+                                <img src="./assets/images/karina-bacchi.jpg" alt="" />
+                                <p>Karina Bacchi</p>
+                            </div>
+
+                            <div class="artist" data-aos="fade-up" data-aos-duration="2000">
+                                <img src="./assets/images/Carmen-Miranda.jpg" alt="" />
+                                <p>Carmen Miranda</p>
+                            </div>
+
+                            <div class="artist" data-aos="fade-up" data-aos-duration="2000">
+                                <img src="./assets/images/roberto-carlos.jpg" alt="" />
+                                <p>Roberto Carlos</p>
+                            </div>
+
+                            <div class="artist" data-aos="fade-up" data-aos-duration="2000">
+                                <img src="./assets/images/lima-duarte.jpg" alt="" />
+                                <p>Lima Duarte</p>
+                            </div>
+
+                            <div class="artist" data-aos="fade-up" data-aos-duration="2000">
+                                <img src="./assets/images/vera-fischer.jpg" alt="" />
+                                <p>Vera Fischer</p>
+                            </div>
+
+                        </div><!-- FIM artist-container containers-->
+                    </div><!-- FIM artists-->
+
+
+                    <div class="albums" data-aos="fade-up" data-aos-duration="2000">
+                        <h1 data-aos="fade-up" data-aos-duration="2000">Notícias</h1>
+
+                        <div class="album-container containers iconografico">
+
+
+                            <div class="album" data-aos="fade-up" data-aos-duration="2000">
+                                <div class="album-frame">
+                                    <img src="./assets/images/Ary-Sanches-1.jpeg" alt="" />
+                                </div>
+                                <div>
+                                    <h2>Cantor Ary Sanches falece aos 79 anos de idade</h2>
+                                    <p>Ary Sanches</p>
+                                </div>
+                            </div>
+
+
+                            <div class="album" data-aos="fade-up" data-aos-duration="2000">
+                                <div class="album-frame">
+                                    <img src="./assets/images/Xeque-Mate-de-1976.jpg" alt="" />
+                                </div>
+                                <div>
+                                    <h2>Dramalhão romântico conquista o público da TV Tupi</h2>
+                                    <p>Dramalhão romântico</p>
+                                </div>
+                            </div>
+
+
+                            <div class="album" data-aos="fade-up" data-aos-duration="2000">
+                                <div class="album-frame">
+                                    <img src="./assets/images/Anjo-Mau.jpg" alt="" />
+                                </div>
+                                <div>
+                                    <h2>Cassiano Gabus Mendes estréia na Globo no sucesso “Anjo Mau”</h2>
+                                    <p>Cassiano Gabus Mendes</p>
+                                </div>
+                            </div>
+
+                            <div class="album" data-aos="fade-up" data-aos-duration="2000">
+                                <div class="album-frame">
+                                    <img src="./assets/images/Luca-de-Castro-em-1997-1.jpg" alt="" />
+                                </div>
+                                <div>
+                                    <h2>Ator Luca de Castro falece aos 70 anos de idade</h2>
+                                    <p>Luca de Castro</p>
+                                </div>
+                            </div>
+
+                            <div class="album" data-aos="fade-up" data-aos-duration="2000">
+                                <div class="album-frame">
+                                    <img src="./assets/images/Troféu-Roquette-Pinto-1.jpg" alt="" />
+                                </div>
+                                <div>
+                                    <h2>Primeiros premiados com o Troféu Roquette Pinto</h2>
+                                    <p>Troféu Roquette Pinto</p>
+                                </div>
+                            </div>
+
+
+
+                        </div><!-- FIM album-container containers-->
+                    </div><!--FIM albums-->
+                </div><!-- FIM left-content-->
+
+
+
+                <div class="right-content">
+                    <div class="recommended-songs">
+                        <h1 data-aos="fade-up" data-aos-duration="2000">Vídeos</h1>
+                        <div class="song-container">
+
+
+                            <div class="song" data-aos="fade-up" data-aos-duration="2000">
+                                <div class="song-img">
+                                    <img src="./assets/images/video01.webp" alt="" />
+                                    <div class="overlay">
+                                        <i class="fa-solid fa-play"></i>
+                                    </div>
+                                </div>
+                                <div class="song-title">
+                                    <h2>Apoie o MBRTV - Museu Brasileiro de Rádio e Televisão</h2>
+                                    <p>museudatv</p>
+                                    <!-- <span>4:33</span> -->
+                                </div>
+
+                            </div>
+
+
+
+                            <div class="song" data-aos="fade-up" data-aos-duration="2000">
+                                <div class="song-img">
+                                    <img src="./assets/images/video02.jpg" alt="" />
+                                    <div class="overlay">
+                                        <i class="fa-solid fa-play"></i>
+                                    </div>
+                                </div>
+                                <div class="song-title">
+                                    <h2>Trilha - As Pupilas do Senhor Reitor</h2>
+                                    <p>museudatv</p>
+                                    <!-- <span>4:03</span> -->
+                                </div>
+
+                            </div>
+
+                            <div class="song" data-aos="fade-up" data-aos-duration="2000">
+                                <div class="song-img">
+                                    <img src="./assets/images/video03.jpg" alt="" />
+                                    <div class="overlay">
+                                        <i class="fa-solid fa-play"></i>
+                                    </div>
+                                </div>
+                                <div class="song-title">
+                                    <h2>Trilha Sonora - Irmãos Coragem</h2>
+                                    <p>museudatv</p>
+                                    <!-- <span>3:10</span> -->
+                                </div>
+
+                            </div>
+
+                            <div class="song" data-aos="fade-up" data-aos-duration="2000">
+                                <div class="song-img">
+                                    <img src="./assets/images/video04.webp" alt="" />
+                                    <div class="overlay">
+                                        <i class="fa-solid fa-play"></i>
+                                    </div>
+                                </div>
+                                <div class="song-title">
+                                    <h2>Trilha - Minha Doce Namorada</h2>
+                                    <p>museudatv</p>
+                                    <!-- <span>3:30</span> -->
+                                </div>
+
+                            </div>
+
+                            <div class="song" data-aos="fade-up" data-aos-duration="2000">
+                                <div class="song-img">
+                                    <img src="./assets/images/video05.webp" alt="" />
+                                    <div class="overlay">
+                                        <i class="fa-solid fa-play"></i>
+                                    </div>
+                                </div>
+                                <div class="song-title">
+                                    <h2>Trilha - O Cafona</h2>
+                                    <p>museudatv</p>
+                                    <!-- <span>3:24</span> -->
+                                </div>
+
+                            </div>
+
+                            <div class="song" data-aos="fade-up" data-aos-duration="2000">
+                                <div class="song-img">
+                                    <img src="./assets/images/video06.webp" alt="" />
+                                    <div class="overlay">
+                                        <i class="fa-solid fa-play"></i>
+                                    </div>
+                                </div>
+                                <div class="song-title">
+                                    <h2>Trilha - Véu de Noiva</h2>
+                                    <p>museudatv</p>
+                                    <!-- <span>3:54</span> -->
+                                </div>
+
+                            </div>
+
+                            <div class="song" data-aos="fade-up" data-aos-duration="2000">
+                                <div class="song-img">
+                                    <img src="./assets/images/video07.webp" alt="" />
+                                    <div class="overlay">
+                                        <i class="fa-solid fa-play"></i>
+                                    </div>
+                                </div>
+                                <div class="song-title">
+                                    <h2>Trilha - Bandeira 2</h2>
+                                    <p>museudatv</p>
+                                    <!-- <span>4:39</span> -->
+                                </div>
+
+                            </div>
+
+
+                            <div class="song" data-aos="fade-up" data-aos-duration="2000">
+                                <div class="song-img">
+                                    <img src="./assets/images/video08.webp" alt="" />
+                                    <div class="overlay">
+                                        <i class="fa-solid fa-play"></i>
+                                    </div>
+                                </div>
+                                <div class="song-title">
+                                    <h2>O Homem que Deve Morrer</h2>
+                                    <p>museudatv</p>
+                                    <!-- <span>4:20</span> -->
+                                </div>
+
+                            </div>
+
+                            <div class="song" data-aos="fade-up" data-aos-duration="2000">
+                                <div class="song-img">
+                                    <img src="./assets/images/video09.webp" alt="" />
+                                    <div class="overlay">
+                                        <i class="fa-solid fa-play"></i>
+                                    </div>
+                                </div>
+                                <div class="song-title">
+                                    <h2>Homenagem aos 70 anos da TV Brasileira</h2>
+                                    <p>museudatv</p>
+                                    <!-- <span>3:45</span> -->
+                                </div>
+
+                            </div>
+
+
+                        </div><!-- FIM song-container-->
+
+                    </div><!--Fim recommended-songs-->
+
+
+
+
+                    <!-- 
+                    <div class="music-player">
+
+                        <div class="album-cover">
+                            <img src="images/album-cover.png" id="rotatingImage" alt="" />
+                            <span class="point"></span>
+                        </div>
+
+                        <h2>Redemption</h2>
+                        <p>Besomorph & Coopex</p>
+
+                        <audio id="song">
+                            <source src="Besomorph-Coopex-Redemption.mp3" type="audio/mpeg" />
+                        </audio>
+
+                        <input type="range" value="0" id="progress" />
+
+                        <div class="controls">
+                            <button class="backward">
+                                <i class="fa-solid fa-backward"></i>
+                            </button>
+                            <button class="play-pause-btn">
+                                <i class="fa-solid fa-play" id="controlIcon"></i>
+                            </button>
+                            <button class="forward">
+                                <i class="fa-solid fa-forward"></i>
+                            </button>
+                        </div>< !-- FIM controls-- >
+
+                    </div>< ! -- FIM music-player -->
+
+                </div><!-- FIM right-content-->
+            </section>
+        </main>
+    </body>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> -->
+    <script src="./assets/swiper11.0.7/swiper-bundle.min.js"></script>
+    <script src="./assets/main.js"></script>
+    <script src="./assets/bannercarousel.js"></script>
+    <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+    <script src="./assets/oas2.3.1/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
